@@ -19,6 +19,7 @@ C - Bibliotecas Utilizadas
 ## 2 - Build e execução
 
 A - Faça a instalação do npm ou yarn. Para instalação das dependências utilize os comandos: **yarn** ou **npm install**
+
 B - Crie o arquivo .env na raiz e coloque suas informações de porta e uri, seguindo o exemplo:
 
 PORT=3333
