@@ -31,7 +31,7 @@ const addCpf = async (req: Request, res: Response): Promise<void> => {
         const savedProfile = await newCpf.save();
 
         res
-            .status(200)
+            .status(201)
             .json({ message: "CPF added", cpf: savedProfile });
     } catch(error) {
         throw error;
