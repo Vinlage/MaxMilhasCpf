@@ -3,7 +3,7 @@ import { Express } from "express";
 
 const connect = (app: Express) => {
     const PORT: string | number = process.env.PORT || 3333;
-    const uri: string = process.env.URI || `mongodb://localhost:27017/database`;
+    const uri: string = process.env.URI || `mongodb://mongo:27017/database`;
     const options = { useNewUrlParser: true, useUnifiedTopology: true };
     mongoose.set("useFindAndModify", false);
 
