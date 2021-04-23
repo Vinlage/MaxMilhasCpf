@@ -15,6 +15,7 @@ C - Bibliotecas Utilizadas
  - cors -> Middleware utilizado para habilitar o cors nas requisições.
  - dotenv -> Utilizado para criar variáveis de ambiente separado do código, por questões de segurança.
  - cpf -> Para realizar a validação do cpf.
+ - mocha, chai, mockgoose -> Bibliotecas usadas para realizar testes unitários.
 
 ## 2 - Build e execução
 
@@ -25,4 +26,7 @@ B - Crie o arquivo .env na raiz e coloque suas informações de porta e uri, seg
 PORT=3333
 URI=mongodb://localhost:27017/database
 
-C - Para executar utilize os comandos: **yarn dev** ou **npm run dev**
+C - Faça a build do docker e execute com os respectivos comandos:
+**docker-compose build** e **docker-compose up**
+
+D - Para executar os testes utilize **yarn test** ou **npm run test**
